@@ -26,7 +26,7 @@ Aplikasi web interaktif berbasis **React + Vite** yang dirancang untuk membantu 
 
 Pastikan di komputermu sudah terpasang [Node.js](https://nodejs.org/) (disarankan versi LTS).
 
-### 1. Clon Repository
+### 1. Clon Repositories
 Buka terminal / Command Prompt lalu jalankan:
 ```bash
 git clone https://github.com/CeyyCubaa/Sistem-Pakar-kerusakan-pada-pc.git
