@@ -22,29 +22,35 @@ Aplikasi web interaktif berbasis **React + Vite** yang dirancang untuk membantu 
 
 ---
 
-##  Panduan Instalasi & Menjalankan
+## Panduan Instalasi & Menjalankan
 
 Pastikan di komputermu sudah terpasang [Node.js](https://nodejs.org/) (disarankan versi LTS).
 
 ### 1. Klon Repositori
 Buka terminal / Command Prompt lalu jalankan:
 ```bash
-git clone [https://github.com/CeyyCubaa/Sistem-Pakar-kerusakan-pada-](https://github.com/CeyyCubaa/Sistem-Pakar-kerusakan-pada-)
+git clone https://github.com/CeyyCubaa/Sistem-Pakar-kerusakan-pada-pc.git
+cd Sistem-Pakar-kerusakan-pada-pc
 ```
+
 ### 2. Pasang Dependensi
 Install semua library pendukung dengan perintah:
 ```bash
 npm install
 ```
-### 3.Jalankan Server Development
-Install semua library pendukung dengan perintah:
+
+### 3. Jalankan Server Development
+Jalankan server lokal pengembangan:
 ```bash
 npm run dev
 ```
 
+Buka browser dan akses alamat lokal yang muncul di terminal (biasanya `http://localhost:5173/`).
+
 ---
 
 ## Build untuk Produksi
+
 Jika ingin mengompilasi proyek untuk kebutuhan deployment / hosting:
 ```bash
 npm run build
@@ -53,6 +59,8 @@ npm run build
 ---
 
 ## Struktur Direktori
+
+```text
 Sistem-Pakar-kerusakan-pada-pc/
 ├── public/          # File statis publik (favicon, gambar umum)
 ├── src/
@@ -66,10 +74,10 @@ Sistem-Pakar-kerusakan-pada-pc/
 ├── package.json     # Daftar dependensi dan script npm
 ├── vite.config.js   # Konfigurasi Vite
 └── README.md        # Dokumentasi proyek
+```
 
 ---
 
 ## Lisensi
-royek ini dibuat untuk keperluan edukasi dan pengembangan sistem informasi.
 
-
+Proyek ini dibuat untuk keperluan edukasi dan pengembangan sistem informasi.
